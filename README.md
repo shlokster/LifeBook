@@ -1,4 +1,4 @@
-# WebTech-Project---Group-22
+#IT254 WebTech Project Group-22
 Social Media Website
 Shlok 
 Kowshic
