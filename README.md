@@ -5,7 +5,7 @@ Shlok
 Kowshic  
 Geethanjali  
 
-Instructions to Execute :
+Instructions to Execute :  
 1.) Download the whole repo as a zip file.  
 2.) Extarct all  
 3.) Open main.html in your preferred browser.  
