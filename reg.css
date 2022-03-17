@@ -1,0 +1,107 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+body{
+  background: #9053c7;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);  background-size: 100% 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px black;
+}
+
+.header > p{
+  color: white;
+  font-size: 1rem;
+  font-style: italic;
+  text-shadow: 2px 2px 4px black;
+}
+
+.container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.formcontainer{
+  background-color: rgba(26, 26, 80, 0.849);
+  height: 100%;
+  width: 30rem;
+  color: white;
+  padding: 3rem;
+}
+
+.formcontainer input[type=text], input[type=password], input[type=date], input[type=email], input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-sizing: border-box;
+  
+}
+
+.formcontainer button[type=submit]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background-color: rgb(72, 223, 122);
+  border: 1px solid rgb(72, 223, 122);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.formcontainer input[type=text], input[type=password], input[type=date], input[type=email], input[type=number],select {
+  margin-bottom: 2rem;
+}
+
+.commentbox{
+  overflow-wrap: break-word;
+  width: 100%;
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -5px;
+  content: "✖";
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -5px;
+  content: "✔";
+}
+
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}

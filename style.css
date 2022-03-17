@@ -6,6 +6,24 @@ body{
 	font-family: sans-serif;
 	background-color: white;
 }
+
+.left-sidebar{
+flex-basis: 25%;
+position: sticky;
+top: 70px;
+align-self: flex-start;
+border-radius: 4px;
+padding: 20px;
+}
+
+.right-sidebar{
+flex-basis: 25%;
+position: sticky;
+top: 70px;
+align-self: flex-start;
+padding: 20px;
+}
+
 *{
 	box-sizing: border-box;
 	margin:0;
@@ -31,7 +49,6 @@ ul{
 .justify-content-between{
 	justify-content: space-between;	
 }
-
 
 .header{
 	background: #9053c7;
@@ -104,11 +121,12 @@ ul{
 	top: 6px;
 }
 
+@media(max-width: 700px){
 
-@media(max-width: 799px){
 	.nav-toggler{
 		display: flex;
 	}
+
 	.header .nav{
 		position: absolute;
 		left:0;
@@ -182,13 +200,21 @@ ul{
 		width: 100%;
 		}
 
-	   .tab {
+	    .tab {
 		tab-size: 20;
 		  }
 
-	@media (min-width: 800px) {
-		.col-1 {width: 50%;}
-		.col-2 {width: 50%;}
+
+		.float-container {
+			border: 3px solid #fff;
+			padding: 20px;
 		}
+		
+		.float-child {
+			width: 50%;
+			float: left;
+			padding: 20px;
+			border: 2px solid red;
+		}  
 
 }
